@@ -9,6 +9,9 @@ var x = 5, y = 10;
 var age = 15;
 var num = -8;
 
+//skrócony zapis warunkowy
+// warunek ? wypełni się jeśli jest true : wypełni się jeśli jest false
+age >= 35 ? alert("on jest małoletni") : alert("on jest z Kanady")
 /*if (age >= 18)
 	{
 	result.innerHTML = "pełnoletni";	
