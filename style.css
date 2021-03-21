@@ -2,7 +2,7 @@
 	font-size: 2rem;
 	text-align: center;
 	font-family: sans-serif;
-	color: #444;
+	color: white;
 }
 
 body {
@@ -11,6 +11,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: black;
 }
 
 .box {
