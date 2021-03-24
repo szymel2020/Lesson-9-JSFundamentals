@@ -30,3 +30,38 @@ function hello()
 //wywołanie funkcji
 
 hello();
+
+
+// return
+
+function add(a, b)
+{
+	//return - kończy wykonywanie całej funkcji
+	return a + b;
+}
+
+var sum = add(5, 5);
+result.innerHTML += "Suma = " + sum + "<br>";
+alert(add(10, 30));
+
+// rekurencja
+
+// rekurencja wywołuje wewnątrz siebie samą siebie
+function silnia(n)
+{
+	if (n == 1)
+		return 1;
+	else
+		return n * silnia(n - 1);
+}
+
+result.innerHTML += "Silnia = " + silnia(9);
+
+
+
+
+
+
+
+
+
